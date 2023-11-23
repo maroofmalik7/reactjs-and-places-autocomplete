@@ -19,13 +19,8 @@ git clone https://github.com/yourusername/react-firebase-autocomplete.git
 npm install
 
 3. Create a .env file in the root of your project and add your Firebase configuration:
-REACT_APP_FIREBASE_API_KEY=yourapikey
-REACT_APP_FIREBASE_AUTH_DOMAIN=yourauthdomain
 REACT_APP_FIREBASE_DATABASE_URL=yourdatabaseurl
 REACT_APP_FIREBASE_PROJECT_ID=yourprojectid
-REACT_APP_FIREBASE_STORAGE_BUCKET=yourstoragebucket
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=yourmessagingsenderid
-REACT_APP_FIREBASE_APP_ID=yourappid
 
 4. Start the development server:
 npm start
