@@ -1,12 +1,9 @@
 import { initializeApp } from 'firebase/app';
-import { getDatabase, ref, onValue } from 'firebase/database'; // Example of how you might use the Realtime Database
+import { getDatabase, ref, onValue } from 'firebase/database'; 
 
-const firebaseConfig = {
-    databaseURL: "https://place-search-405814-default-rtdb.firebaseio.com",
-    projectId: "place-search-405814",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: ""
+  const firebaseConfig = {
+    databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
   };
 
 const app = initializeApp(firebaseConfig);
@@ -26,11 +23,3 @@ export function readAllAddresses() {
         });
     });
 }
-
-// Get a list of cities from your database
-// async function getAddresses(db) {
-//   const citiesCol = collection(db, 'cities');
-//   const citySnapshot = await getDocs(citiesCol);
-//   const cityList = citySnapshot.docs.map(doc => doc.data());
-//   return cityList;database
-// }

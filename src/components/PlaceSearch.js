@@ -15,11 +15,6 @@ const PlaceSearch = () => {
 
   const filteredAddresses = addresses && addresses.filter(address => address.includes(searchText)) || [];
 
-  // const handleSearch = (value) => {
-  //   setSearchText(value);
-  //   dispatch(fetchPlaces(value)); // Call action to fetch places based on searchText
-  // };
-
   return (
     <div className="places">
     <Input.Search

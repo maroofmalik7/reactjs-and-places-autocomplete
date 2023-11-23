@@ -3,7 +3,6 @@ import { Provider } from 'react-redux';
 import store from './store/store';
 import PlaceSearch from './components/PlaceSearch';
 import MapDisplay from './components/MapDisplay';
-// import 'antd/dist/antd.css';
 
 function App() {
   return (
