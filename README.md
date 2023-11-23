@@ -14,7 +14,6 @@ This is a simple React application that demonstrates an autocomplete feature usi
 1. Clone the repository:
 git clone https://github.com/yourusername/react-firebase-autocomplete.git
 
-
 2. Install the dependencies:
 npm install
 
