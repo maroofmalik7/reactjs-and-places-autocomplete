@@ -25,5 +25,5 @@ REACT_APP_FIREBASE_PROJECT_ID=yourprojectid
 4. Start the development server:
 npm start
 
-## Contributing
+Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
